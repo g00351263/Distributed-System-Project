@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.grpcproject&apos; to &apos;grpcClient/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;grpcProject&apos;&#x0D;&#x0A;- Destination element: &apos;grpcClient/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;grpcProject/src/main/java/com.grpcproject&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=grpcClient/src\/main\/java" element1="/src\/main\/java&lt;com.grpcproject" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1571597300290" version="1.0"/>
+</session>

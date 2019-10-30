@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="io.grpc.ManagedChannel"/>
+<fullyQualifiedTypeName name="io.grpc.ManagedChannelBuilder"/>
+<fullyQualifiedTypeName name="com.grpcproject.userGrpc.userBlockingStub"/>
+<fullyQualifiedTypeName name="com.grpcproject.User.LoginRequest"/>
+<fullyQualifiedTypeName name="com.grpcproject.User.APIResponse"/>
+<fullyQualifiedTypeName name="com.grpcproject.userGrpc"/>
+<fullyQualifiedTypeName name="java.security.MessageDigest"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+</qualifiedTypeNameHistroy>
