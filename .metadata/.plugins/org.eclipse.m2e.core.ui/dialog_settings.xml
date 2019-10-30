@@ -2,15 +2,23 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.projectClient"/>
+			<item value="com.project"/>
+			<item value="com.dsp"/>
 			<item value="com.grpcclient"/>
 			<item value="com.grpcproject"/>
 		</list>
 		<list key="name">
+			<item value="grpcClient"/>
+			<item value="grpcPassword"/>
+			<item value="grpcProject2019"/>
 			<item value="GrpcClient"/>
 			<item value="GrpcProject"/>
 		</list>
 		<list key="artifactId">
 			<item value="grpcClient"/>
+			<item value="grpcPassword"/>
+			<item value="grpcProject2019"/>
 			<item value="grpcProject"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -71,6 +79,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\g0035\Project Distributed System\grpcProject\src\main\resources\user.proto"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

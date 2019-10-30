@@ -1,5 +1,7 @@
 PASSWORD SERVICE:
 
+<NoTE> jar files are within client and server folders.
+
 git: https://github.com/g00351263/Distributed-System-Project/tree/master/grpcProject
 
 DETAILS to Run Password Checks:

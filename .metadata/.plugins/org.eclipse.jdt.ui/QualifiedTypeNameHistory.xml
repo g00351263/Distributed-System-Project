@@ -10,4 +10,15 @@
 <fullyQualifiedTypeName name="com.grpcproject.userGrpc"/>
 <fullyQualifiedTypeName name="java.security.MessageDigest"/>
 <fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="com.project.passwordGrpc.passwordImplBase"/>
+<fullyQualifiedTypeName name="com.project.Password.hashResponse.Builder"/>
+<fullyQualifiedTypeName name="com.encryption.Encryption"/>
+<fullyQualifiedTypeName name="com.project.PasswordService"/>
+<fullyQualifiedTypeName name="com.project.passwordGrpc"/>
+<fullyQualifiedTypeName name="com.project.passwordGrpc.passwordBlockingStub"/>
+<fullyQualifiedTypeName name="com.project.Password.hash1"/>
+<fullyQualifiedTypeName name="com.project.Password.hashResponse"/>
+<fullyQualifiedTypeName name="com.project.Password.validate1"/>
+<fullyQualifiedTypeName name="com.project.Password.validateResponse"/>
+<fullyQualifiedTypeName name="com.project.Password.validateResponse.Builder"/>
 </qualifiedTypeNameHistroy>

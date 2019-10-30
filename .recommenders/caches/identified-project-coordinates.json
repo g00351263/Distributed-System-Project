@@ -1,1 +1,1 @@
-[[{"location":"C:\\eclipse","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
+[[{"location":"C:\\eclipse","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\g0035\\Project Distributed System\\grpcPassword","type":"PROJECT","hints":{"PROJECT_NAME":"grpcPassword"}},"com.project:grpcPassword:0.0.1"],[{"location":"C:\\Users\\g0035\\Project Distributed System\\grpcClient","type":"PROJECT","hints":{"PROJECT_NAME":"grpcClient"}},"com.projectClient:grpcClient:0.0.1"]]
