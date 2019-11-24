@@ -5,7 +5,19 @@
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
 		<item value="false" key="updateTextualMatches"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item value="false" key="OmitCallToSuper"/>
+	</section>
+	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
+		<item value="517" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="678" key="DIALOG_HEIGHT"/>
+		<item value="230" key="DIALOG_X_ORIGIN"/>
+		<item value="76" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
@@ -13,6 +25,13 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+		<item value="true" key="RunnableJar.export.ipwarning"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
 	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item value="524" key="DIALOG_WIDTH"/>
@@ -21,6 +40,13 @@
 		<item value="706" key="DIALOG_X_ORIGIN"/>
 		<item value="217" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="696" key="DIALOG_HEIGHT"/>
+		<item value="705" key="DIALOG_X_ORIGIN"/>
+		<item value="64" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
@@ -28,10 +54,12 @@
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\g0035\Project Distributed System" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="GrpcServer (1) - grpcPassword" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\g0035\Desktop\service.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="C:\Users\g0035\Desktop\userService.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\g0035\Desktop\userService.jar"/>
+			<item value="C:\Users\g0035\Desktop\userServicejar.jar"/>
 			<item value="C:\Users\g0035\Desktop\service.jar"/>
 			<item value="C:\Users\g0035\Desktop\client.jar"/>
 			<item value="C:\Users\g0035\Desktop\passwordService.jar"/>
@@ -44,6 +72,7 @@
 	<section name="SourceActionDialog.methods">
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
 	<section name="OverrideMethodDialog">
@@ -69,7 +98,7 @@
 		<item value="true" key="jarOptionsWizardPage.EXPORT_WARNINGS"/>
 		<item value="" key="jarOptionsWizardPage.DESCRIPTION_LOCATION"/>
 		<item value="true" key="jarOptionsWizardPage.BUILD_IF_NEEDED"/>
-		<item value="false" key="JarPackageWizardPage.EXPORT_JAVA_FILES"/>
+		<item value="true" key="JarPackageWizardPage.EXPORT_JAVA_FILES"/>
 		<item value="true" key="jarOptionsWizardPage.EXPORT_ERRORS"/>
 		<item value="true" key="JarManifestWizardPage.GENERATE_MANIFEST"/>
 		<item value="true" key="JarPackageWizardPage.EXPORT_CLASS_FILES"/>
@@ -82,6 +111,10 @@
 			<item value="C:\Users\g0035\Desktop\service.jar"/>
 			<item value="C:\Users\g0035\Desktop\client.jar"/>
 		</list>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>

@@ -40,5 +40,13 @@ public class Encryption {
 			throw new RuntimeException(e);
 		}
 	}
+	
+	// converting to SHA1 or salted //
+	public static String complete(String compPass)  {
+		String com;
+			com = Encryption.hash(compPass + ":" + Encryption.salt(compPass));
+		return com;
+	}
+	
 
 }

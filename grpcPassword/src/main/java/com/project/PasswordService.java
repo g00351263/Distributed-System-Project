@@ -17,16 +17,15 @@ public class PasswordService extends passwordImplBase{
 		
 		String userId = request.getUserId();
 		String password = request.getPassword();
-		
+		 String salted;
+		 String hashed;
+		 
+		 salted = Encryption.salt(password);
+		 hashed = salted + Encryption.hash(salted);
+		 
 		hashResponse.Builder hashRes = hashResponse.newBuilder();
 		
-		if(userId.equals(password)) {
-			
-			hashRes.setUserId(userId).setHashedPassword(Encryption.hash(password)).setSalt(Encryption.salt(password));
-		}
-		else {
-			hashRes.setUserId(userId).setHashedPassword(" nothing ").setSalt(" nothing ");
-		}
+		hashRes.setUserId(userId).setHashedPassword(hashed).setSalt(salted);	
 		
 		responseObserver.onNext(hashRes.build());
 		responseObserver.onCompleted();
@@ -38,6 +37,7 @@ public class PasswordService extends passwordImplBase{
 
 		String password = request1.getPassword();
 		String hashed = request1.getHashedPassword();
+		String salt = request1.getSalt();
 		
 		validateResponse.Builder valRes = validateResponse.newBuilder();
 		

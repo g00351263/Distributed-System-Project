@@ -1,13 +1,19 @@
 import java.io.IOException;
 
 import com.encryption.Encryption;
+import com.project.Password.hash1;
+import com.project.Password.hashResponse;
+import com.project.Password.validate1;
+import com.project.Password.validateResponse;
 import com.project.PasswordService;
+import com.project.passwordGrpc.passwordImplBase;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
+import io.grpc.stub.StreamObserver;
 
 
-public class GrpcServer {
+public class GrpcServer extends passwordImplBase{
 
 	 public static void main(String args[]) throws IOException, InterruptedException {
 		 
@@ -20,17 +26,6 @@ public class GrpcServer {
 		 salted = Encryption.salt(password);
 		 hashed = salted + Encryption.hash(salted);
 		 
-		 System.out.println("=============================================");
-		 System.out.println("Password check " + password);
-		 System.out.println("MD5 " + Encryption.hash(password));
-		//////////////////
-		 
-		 //// encryption method Salt //
-		 System.out.println("SALT " + Encryption.salt(password));
-		 
-		 //// encryption salted password then hased ///
-		 System.out.println("Salted Then Hashed Password " + hashed);
-		
 		 //////////////////
 		 /// server starting //
 		 System.out.println("=============================================\n\nstarting GRPC Server");
@@ -41,9 +36,5 @@ public class GrpcServer {
 		 server.start();
 		 System.out.println("server started at "+ server.getPort());
 	        server.awaitTermination();
-	 }
-	 
-	 ///// server finished code //
-	 
-	 
+	 }	 
 }

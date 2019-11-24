@@ -2,24 +2,19 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.projectClient"/>
-			<item value="com.project"/>
-			<item value="com.dsp"/>
-			<item value="com.grpcclient"/>
-			<item value="com.grpcproject"/>
+			<item value="com.yrrhelp"/>
+			<item value="com.grpc"/>
+			<item value="com.raja"/>
+			<item value="io.archetype.quickstart"/>
 		</list>
 		<list key="name">
-			<item value="grpcClient"/>
-			<item value="grpcPassword"/>
-			<item value="grpcProject2019"/>
-			<item value="GrpcClient"/>
-			<item value="GrpcProject"/>
+			<item value="GrpcDemo"/>
+			<item value="grpcServer"/>
 		</list>
 		<list key="artifactId">
-			<item value="grpcClient"/>
-			<item value="grpcPassword"/>
-			<item value="grpcProject2019"/>
-			<item value="grpcProject"/>
+			<item value="grpcDemo"/>
+			<item value="grpcServer"/>
+			<item value="arche"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -53,6 +48,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\g0035\Project Distributed System\artistAPI-dropwizard"/>
+			<item value="C:\Users\g0035\Project Distributed System\pro2019"/>
+			<item value="C:\Users\g0035\Project Distributed System\dropwizard-demo"/>
 			<item value="C:\Users\g0035\Desktop\distributed-systems-labs\grpcIntro"/>
 			<item value="C:\Users\g0035\Desktop\grpc-java\examples\example-gauth"/>
 			<item value="C:\Users\g0035\Desktop\grpc-java\examples"/>
@@ -77,8 +75,26 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeVersion">
+			<item value="0.8.2"/>
+		</list>
+		<list key="archetypeGroupId">
+			<item value="io.dropwizard.archetypes"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="java-simple"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\g0035\Project Distributed System\artistAPI-dropwizard"/>
+			<item value="C:\Users\g0035\Project Distributed System\"/>
+			<item value="C:\Users\g0035\Project Distributed System\grpcPassword"/>
+			<item value="C:\Users\g0035\Project Distributed System\grpcClient"/>
 			<item value="C:\Users\g0035\Project Distributed System\grpcProject\src\main\resources\user.proto"/>
 		</list>
 		<list key="projectNameTemplate">
